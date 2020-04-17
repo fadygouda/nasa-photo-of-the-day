@@ -7,7 +7,8 @@ const Card = () => {
     console.log([info]);
 
     useEffect(() => {
-        axios.get(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`)
+        axios.get(`https://api.nasa.gov/planetary/apod?api_key=XXGh8NmFUnogNaEIDqL5tTAgCr3vpVwCluZxkvPa
+        `)
         .then(response => {
             console.log(response)
             setInfo(response.data)
